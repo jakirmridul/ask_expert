@@ -1,0 +1,155 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+/*	topbar*/
+.topbar{
+	height: 100px;
+}
+.c_top{
+	display: block;
+	justify-content: center;
+}
+.box1{
+	margin-bottom: 10px;
+ }
+ .box2{
+	margin-bottom: 10px;
+ }
+ .box3{
+	margin-bottom: 10px;
+ }
+ /*header*/
+ header{
+	padding: 30px 0;
+}
+.menu ul li {
+	margin: 0 -10px;
+}
+.call{
+	margin-left: -10px;
+}
+/*Banner*/
+.banner{
+	height: 300px;
+}
+.b_box{
+	width: 310px;
+	height: 290px;
+	top: 1%;
+	left: 2%;
+}
+.b_text{
+	padding: 5px 23px 0 23px;
+}
+.b_text h1{
+font-size: 30px;
+}
+.btn_cm{
+	padding: 13px 10px;
+	width: 150px;
+	height: 50px
+}
+.b_btn{
+	margin: 2px 0 0 22px;
+}
+.b_btn2{
+	margin: 8px 0 0 23px;
+	padding: 13px 2px;
+}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) { 
+/*header*/
+.menu ul li {
+	margin: 0 -10px;
+}
+.call{
+	margin-left: -10px;
+}
+/*Banner*/
+.banner{
+	height: 300px;
+}
+.b_box{
+	width: 350px;
+	height: 290px;
+	top: 2%;
+	left: 4%;
+}
+.b_text{
+	padding: 20px 23px;
+}
+.b_text h1{
+font-size: 35px;
+}
+.btn_cm{
+	padding: 13px 10px;
+	width: 150px;
+	height: 50px
+}
+.b_btn{
+	margin: 15px 0 0 22px;
+}
+.b_btn2{
+	margin: 15px 0 0 10px;
+	padding: 13px 2px;
+}
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+/*header*/
+.menu ul li {
+	margin: 0 -10px;
+}
+.call{
+	margin-left: -10px;
+}
+/*Banner*/
+.banner{
+	height: 340px;
+}
+.b_box{
+	height: 290px;
+	top: 8%;
+	left: 4%;
+}
+.b_btn{
+	margin: 10px 0 0 22px;
+}
+.b_btn2{
+	margin: 10px 0 0 10px;
+	
+}
+ }
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+/*	banner*/
+
+ }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+/*	topbar*/
+/*header*/
+.logo {
+    margin: 0px 200px 0 0px !important;
+}
+.b_box{
+	top: 23%;
+	left: 3%;
+}
+ }
+
+/* Extra Extra large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) { 
+/*header*/
+.logo {
+    margin: 0px 300px 0 0px !important;
+}
+.b_box{
+	top: 23%;
+	left: 5%;
+}
+}
